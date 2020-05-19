@@ -1,0 +1,6 @@
+{
+  "api": { 
+    "transactionUrl":"https://nst07ve964.execute-api.us-east-1.amazonaws.com/prod",
+    "getotpUrl":"https://ddzczm8zei.execute-api.us-east-1.amazonaws.com/prod"
+  } 
+}
