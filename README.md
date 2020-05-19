@@ -1,8 +1,11 @@
+## gribesh-bank-web-application
 "Author":"Gribesh Dhakal https://github.com/Gribesh" 
 
 To run this react app:
 >clone this repo
+
 >npm install --save
+
 >npm start
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
