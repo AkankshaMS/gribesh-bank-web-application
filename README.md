@@ -2,13 +2,65 @@
 "Author":"Gribesh Dhakal https://github.com/Gribesh" 
 
 To run this react app:
->clone this repo
+>git clone https://github.com/Gribesh/gribesh-bank-web-application.git
 
 >npm install --save
 
 >npm start
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+
+### Project Structure
+```
+.
+├── Lambda Functions
+│   ├── Get_Transaction_Details_Function.py
+│   ├── OTP_Generation_Function.py
+│   ├── OTP_Read_Function.py
+│   ├── Process_Transaction_Function.py
+│   ├── Read_Account_Details_Function.py
+│   └── Send_Response_Email_Function.js
+├── package.json
+├── public
+│   ├── bank.jpeg
+│   ├── favicon.ico
+│   ├── index.html
+│   └── manifest.json
+├── README.md
+└── src
+    ├── App.css
+    ├── App.js
+    ├── App.test.js
+    ├── components
+    │   ├── AppliedRoute.js
+    │   ├── LoaderButton.css
+    │   └── LoaderButton.js
+    ├── config.js
+    ├── config.json
+    ├── containers
+    │   ├── Admin.js
+    │   ├── Hero.js
+    │   ├── HomeContent.js
+    │   ├── Home.css
+    │   ├── Home.js
+    │   ├── Lander.js
+    │   ├── Login.css
+    │   ├── Login.js
+    │   ├── MyAccount.js
+    │   ├── NotFound.css
+    │   ├── NotFound.js
+    │   ├── otp
+    │   │   └── Otp.js
+    │   ├── Signup.css
+    │   ├── Signup.js
+    │   └── Transaction.js
+    ├── index.css
+    ├── index.js
+    ├── registerServiceWorker.js
+    └── Routes.js
+
+6 directories, 39 files
+```
 
 Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
